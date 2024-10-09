@@ -1,0 +1,48 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    background-color: #b7afff;
+}
+.box {
+    max-width: 600px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    width:95%;
+    padding: 10px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+#persetujuan{
+    margin: 20px 0;
+}
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover{
+    background-color: #e6e5e5;
+    cursor: pointer;
+    border: 1px solid #e6e5e5;
+}
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+input[type="submit"]:hover {
+    background-color: #757575;
+    cursor: pointer;
+    border: 1px solid #757575;
+}
+h1{
+    text-align: center;
+}
+.detail {
+    margin: 10px 0;
+}
+p{
+    display: inline-block;
+    margin: 0;
+    font-weight: italic;
+}

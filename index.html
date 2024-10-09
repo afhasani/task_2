@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pendaftaran Kunjungan Industri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Form Pendaftaran Kunjungan</h1>
+        <form action="detail.html" method="get">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="umur">Umur:</label>
+            <input type="number" id="umur" name="umur" required>
+            <label for="nim">NIM:</label>
+            <input type="number" id="nim" name="nim" required>
+            <label for="kelamin">Jenis Kelamin:</label>
+            <input type="text" id="kelamin" name="kelamin" list="list_kelamin" required>
+            <datalist id="list_kelamin">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </datalist>
+            <label for="prodi">Program Studi:</label>
+            <input type="text" id="prodi" name="prodi" list="list_prodi" required>
+            <datalist id="list_prodi">
+                <option value="IF">Teknik Informatika</option>
+                <option value="TI">Teknik Industri</option>
+                <option value="TB">Teknik Biosistem</option>
+                <option value="TM">Teknik Mesin</option>
+                <option value="TP">Teknik Pertambangan</option>
+            </datalist>
+            <label for="persetujuan">Apakah anda beredia membayar biaya penginapan sebesar 250k?:</label>
+            <input type="checkbox" id="persetujuan" name="persetujuan" value="Setuju" required>
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
